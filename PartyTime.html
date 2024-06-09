@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Time</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&family=Montserrat:wght@400;700&family=Great+Vibes&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="PartyTime.css">
+    <script defer src="PartyTime.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Party Time</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Welcome to Party Time! We are a premier event planning company that is dedicated to making your special occasions unforgettable. With years of experience in the industry, we specialize in creating unique and personalized events that satisfy all your needs. From themed events and marquee parties to bespoke catering and sound and lighting, we handle it all. Our team of professional event planners, designers, and chefs work tirelessly to make sure every detail is perfect. Let us help you bring your vision to life and create memories that will last forever.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Services and Products Offered</h2>
+                <div class="services-container">
+                    <div class="service themed-events">
+                        <h3>Themed events</h3>
+                        <ul>
+                            <li>Weddings</li>
+                            <li>Birthdays</li>
+                            <li>Corporate events</li>
+                        </ul>
+                    </div>
+                    <div class="service marquee-parties">
+                        <h3>Marquee parties</h3>
+                        <ul>
+                            <li>Outdoor setups</li>
+                            <li>Custom themes</li>
+                            <li>Lighting and sound</li>
+                        </ul>
+                    </div>
+                    <div class="service special-celebrations">
+                        <h3>Special celebrations</h3>
+                        <ul>
+                            <li>Anniversaries</li>
+                            <li>Graduations</li>
+                            <li>Baby showers</li>
+                        </ul>
+                    </div>
+                    <div class="service entertainment">
+                        <h3>Entertainment</h3>
+                        <ul>
+                            <li>Live bands</li>
+                            <li>DJs</li>
+                            <li>Magicians</li>
+                        </ul>
+                    </div>
+                    <div class="service fundraisers">
+                        <h3>Fundraisers</h3>
+                        <ul>
+                            <li>Charity events</li>
+                            <li>Auction services</li>
+                            <li>Guest speakers</li>
+                        </ul>
+                    </div>
+                    <div class="service bespoke-catering">
+                        <h3>Bespoke catering</h3>
+                        <ul>
+                            <li>Custom menus</li>
+                            <li>Special dietary needs</li>
+                            <li>Professional chefs</li>
+                        </ul>
+                    </div>
+                    <div class="service themes-and-props">
+                        <h3>Themes and props</h3>
+                        <ul>
+                            <li>Custom designs</li>
+                            <li>Prop rentals</li>
+                            <li>Theme consultations</li>
+                        </ul>
+                    </div>
+                    <div class="service invitations-printworks">
+                        <h3>Invitations and printworks</h3>
+                        <ul>
+                            <li>Custom designs</li>
+                            <li>Professional printing</li>
+                            <li>Delivery services</li>
+                        </ul>
+                    </div>
+                    <div class="service sound-lighting">
+                        <h3>Sound and lighting</h3>
+                        <ul>
+                            <li>Professional equipment</li>
+                            <li>Setup and teardown</li>
+                            <li>Technician support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages">
+            <div class="container">
+                <h2>Packages Offered</h2>
+                <div class="packages-container">
+                    <div class="package bronze">
+                        <h3>Bronze</h3>
+                        <ul>
+                            <li>Room decorations – balloons, banners</li>
+                            <li>Table decorations – centrepieces, gifts</li>
+                            <li>DJ entertainment</li>
+                            <li>Cold buffet</li>
+                        </ul>
+                    </div>
+                    <div class="package silver">
+                        <h3>Silver</h3>
+                        <ul>
+                            <li>All from Bronze package plus:</li>
+                            <li>Invitation design and handling</li>
+                            <li>Party cost clear up</li>
+                            <li>Live band entertainment</li>
+                            <li>Cold buffet and soft drinks</li>
+                        </ul>
+                    </div>
+                    <div class="package gold">
+                        <h3>Gold</h3>
+                        <ul>
+                            <li>All from Silver package plus:</li>
+                            <li>Staff in attendance to ensure complete perfection</li>
+                            <li>Finding guest accommodation, booking transport</li>
+                            <li>Live band entertainment and magician</li>
+                            <li>Hot and Cold buffet and soft drinks</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Custom packages are available for specific parties, additional decorations and additional staff. Clients must contact the company to arrange any custom packages.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Party Time. All rights reserved. Created by Art Xhaferi</p>
+        </div>
+    </footer>
+</body>
+</html>
